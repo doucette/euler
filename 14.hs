@@ -1,4 +1,4 @@
-import Array
+import Data.Array
 import Data.Ord
 
 f n

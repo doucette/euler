@@ -1,4 +1,4 @@
-import Char
+import Data.Char
 main = print . length . filter isTri . map measure $ inputWords
     where measure = sum . map ((+initial) . ord)
               where initial = 1 - ord 'A'

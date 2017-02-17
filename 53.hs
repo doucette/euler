@@ -1,4 +1,4 @@
-import Array
+import Data.Array
 
 main = print . length . filter (>10^6) $ [ c n k | n <- [1..100], k <- [0..n] ]
 

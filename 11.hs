@@ -1,4 +1,4 @@
-import List
+import Data.List
 main = print . maximum . map (product . take 4) . concatMap tails $ groups
      where groups = concatMap ($ grid)
                               [ rows, cols, diagub, diagut, diagdb, diagdt ]
